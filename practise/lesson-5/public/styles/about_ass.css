@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    background:aqua;
+    height: 100vh;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+    color: brown;
+    font-style: italic;
+}
+
+.main__team{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.team{
+    margin: 15px;
+    font-size: 30px;
+    font-family: "roboto";
+    color: darkred;
+    display: block;
+}
+
+.worker1{
+    width: 200px;
+}
+
+.worker2{
+    width: 160px;
+}
+
+.worker3{
+    width: 160px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.main__team__par{
+    font-family: "roboto";
+}
+
+.map{
+    padding: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid darkmagenta;
+}
+
+.list{
+    display: flex;
+
+}
+
+.contacts{
+    list-style-type: none;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: black;
+}
