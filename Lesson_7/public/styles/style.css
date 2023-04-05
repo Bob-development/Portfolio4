@@ -1,0 +1,46 @@
+@import url(../styles/variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+}
+
+.wraper{
+    width: 1440px;
+}
+
+.header{
+    display: flex;
+    height: 110px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 75px;
+    height: 27px;
+}
+
+.navigation{
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav-link{
+    text-decoration: none;
+    margin-left: 36px;
+    color: var(--text-color);
+    font-size: var(--font-size-1);
+    font-weight: 600;
+}
+
