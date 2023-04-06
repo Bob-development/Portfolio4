@@ -48,11 +48,12 @@ ul{
     font-weight: 600;
 }
 
-.content{
+.page1{
     margin-top: var(--margin-5);
     margin-left: var(--margin-4);
     margin-right: var(--margin-4);
     margin-bottom: var(--margin-5);
+    display: flex;
 }
 
 .main-button{
@@ -71,8 +72,83 @@ ul{
     font-family: Montserrat;
     font-size: 10px;
     font-weight: 700;
+    cursor:pointer;
+    margin-bottom: 24px;
 }
 
 .content-title{
-    
+    display: block;
+    width: 602px;
+    height: 146px;
+    font-weight: 700;
+    font-size: 66px;
+    font-family: Montserrat;
+    color: var(--text-color);
+    line-height: 72px;
+}
+
+.students-wrapper{
+    display: flex;
+    align-items:center;
+    margin-top: 40px;
+}
+
+.main-start-bt{
+    width: 222px;
+    height: 56px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(253, 221, 53, 1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(3, 3, 3, 1);
+    font-family: Montserrat;
+    padding: 18px, 25px, 18px, 25px;
+}
+
+.students{
+    margin-left: 16px;
+    width: 130px;
+    height: 34px;
+}
+
+.Join{
+    margin-left: 8px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.description{
+    display: block;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 24px;
+}
+
+.main-img{
+    width: 600px;
+    height: 392px;
+    margin-bottom: var(--margin-5);
+}
+
+.page2{
+    margin-top: 30px;
+    margin-left: 70px;
+    /* margin-bottom: var(--margin-4); */
+    margin-right: 70px;
+}
+
+.page2-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1300px;
+    height: 139px;
+    font-weight: 800;
+    font-size: 127px;
+    line-height: 140px;
+    font-family: Montserrat;
+    color: rgba(255, 255, 255, 0.1);
 }
