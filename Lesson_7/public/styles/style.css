@@ -142,7 +142,7 @@ ul{
     display: flex;
 }
 
-.page2-title{
+.page2-title, .page3-title{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -218,3 +218,125 @@ ul{
     height: 224px;
     margin-top: 24px;
 }
+
+.page3{
+    margin-top: 150px;
+}
+
+.page3-title{
+    width: 1440px;
+}
+
+.user-wrapper1{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.user-wrapper2{
+    display: flex;
+}
+
+.user1, .user2, .user3{
+    width: 417px;
+    height: 280px;
+    border: none;
+    border: 1px solid;
+    border-radius: 12px;
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: inherit;
+    padding-top: 26px;
+    padding-right: 23px;
+    padding-bottom: 26px;
+    padding-left: 23px;
+}
+
+.user2, .user3{
+    margin-left: 24px;
+}
+
+.user1{
+    margin-left: 70px;
+}
+
+.user-info-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 26px, 23px, 26px, 23px;
+}
+
+.user1-info, .user2-info, .user3-info{
+    display: flex;
+}
+
+.user1-contacts, .user2-contacts, .user3-contacts{
+    margin-left: 6px;
+    align-items: center;
+}
+
+.name, .contact{
+    display: block;
+    margin-bottom: 3px;
+}
+
+.name{
+    color: var(--text-color);
+    margin-top: 5.5px;
+    width: 116px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+.contact{
+    color: rgba(255,255,255,0.6);
+    width: 108px;
+    height: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.user1-img{
+    width: 46px;
+    height: 46px;
+}
+
+.twitter{
+    width: 22px;
+    height: 19px;
+}
+
+.coment{
+    width: 373px;
+    height: 120px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--text-color);
+    margin-top: 24px;
+}
+
+.data{
+    width: 373px;
+    height: 14px;font-weight: 500;
+    font-size: 12px;
+    line-height: 14.6px;
+    color: var(--text-color);
+    margin-top: 24px;
+}
+
+.page3-part2-content{
+    margin-bottom: 120px;
+}
+
+.footer{
+    width: 1440px;
+    height: 572px;
+    padding-top: 120px;
+    background-color: rgba(76,52,164,1);
+    border: none;
+    border-top: 1px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
