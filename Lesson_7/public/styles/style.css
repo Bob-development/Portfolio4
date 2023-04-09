@@ -33,7 +33,7 @@ body{
     margin-right: var(--margin-2);
 }
 
-ul{
+.header-nav{
     list-style: none;
     display: flex;
 }
@@ -340,3 +340,142 @@ ul{
     border-color: rgba(255, 255, 255, 0.5);
 }
 
+.footer-info{
+    padding-left: 70px;
+    padding-bottom: 120px;
+}
+
+.footer-title{
+    width: 420px;
+    height: 66px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 33px;
+    color: var(--text-color);
+    margin-bottom: 19px;
+}
+
+.title-description{
+    width: 400px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--text-color);
+}
+
+.input{
+    display: flex;
+}
+
+.e-mail{
+    width: 513px;
+    height: 56px;
+    padding-top: 17.5px;
+    padding-right: 97px;
+    padding-bottom: 17.5px;
+    padding-left: 16px;
+    background-color: rgba(255,255,255,0.12);
+    border: none;
+    border: 1px solid;
+    border-radius: 6px;
+    border-color: rgba(255,255,255,0.5);
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+.footer-bt-submit{
+    width: 111px;
+    height: 56px;
+    border: none;
+    border-radius: 6px;
+    padding-top: 18px;
+    padding-right: 25px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    background-color: rgba(253, 221, 53, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+.social{
+    margin-top: 28.3px;
+    display:flex;
+    align-items: center;
+}
+
+.youtube{
+    width: 22px;
+    height: 15px;
+}
+
+.facebook{
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+}
+
+.twitter{
+    width: 22px;
+    height: 19px;
+    margin-left: 10px;
+}
+
+.insta{
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+}
+
+.tt{
+    width: 16.5px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.all-right{
+    width: 283px;
+    height: 18px;font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(255,255,255,0.7);
+}
+
+.copy{
+    margin-top: 81px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav{
+    display: flex;
+    margin-right: 70px;
+}
+
+.footer-nav-list{
+    list-style: none;
+    margin-bottom: 13px;
+}
+
+.footer-nav-links{
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.footer-nav-title{
+    color: var(--text-color);
+    margin-bottom: 21px;
+}
+
+.company{
+    margin-left: 114px;
+}
