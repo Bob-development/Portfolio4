@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#app{
+    background-color: black;
+    height: 100vh;
+}
+
+.logo-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.logo:hover{
+    cursor: crosshair;
+    box-shadow: 10px 10px 10px 20px aqua;
+    background: aqua;
+}
+
+.oni{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+
+    animation-name: oni;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes oni { 
+    from{
+        left: 0;
+    }
+    
+    to{
+        left: 100%;
+    }
+}

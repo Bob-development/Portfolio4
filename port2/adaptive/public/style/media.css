@@ -1,0 +1,68 @@
+@media (max-width: 377px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo{
+        width: 72px;
+        height: 22px;
+    }
+    
+
+    .line {
+        margin-top: 3px;
+        width: 18px;
+        height: .1rem;
+    }
+
+    .header-nav{
+        display: none;
+    }
+
+    .nav-link{
+        display: none;
+    }
+
+    .page1 {
+        padding: var(--padding-l);
+        margin-left: var(--margin-l);
+        width: 377px;
+        background: url("../public/images/backgrounds/background-1.png");
+        background-size: 1300px;
+        background-position: center;
+        height: 476px;
+    }
+
+    .page1__title {
+        margin-top: calc(var(--margin-xxl) + 4px);
+    }
+    
+    .page1-name {
+        font-size: var(--fs-l);
+        font-family: var(--ff-kaisei);
+        margin-bottom: var(--margin-xs);   
+    }
+
+    .page2{
+        width: 377px;
+        display: none;
+    }
+    
+    .page3{
+        width: 377px;
+        display: none;
+    }
+    .page4{
+        width: 377px;
+        display: none;
+    }
+    .page5{
+        width: 377px;
+        display: none;
+    }
+    .page6{
+        width: 377px;
+        display: none;
+    }
+}
