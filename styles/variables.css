@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "montserrat";
+    src: url("../public/fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+:root {
+    /* PADDING */
+    --padding-page_u : 108px;
+    --padding-page_b : 128px;
+    --padding-xxxl : 405px;
+    --padding-xxl : 60px;
+    --padding-xl : 50px;
+    --padding-l : 40px;
+    --padding-m : 30px;
+    --padding-s : 20px;
+    --padding-xs : 10px; 
+
+    /* MARGIN */
+    --margin-xxxl : 128px;
+    --margin-xxl : 60px;
+    --margin-xl : 50px;
+    --margin-l : 40px;
+    --margin-m : 30px;
+    --margin-s : 26px;
+    --margin-xs : 15px; 
+    --margin-xxs : 10px; 
+
+    /* FONT_SIZE */
+    --fs-xl : 55px;
+    --fs-l : 45px;
+    --fs-m : 20px;
+    --fs-s : 18px;
+    --fs-xs : 16px; 
+    --fs-xxs : 14px; 
+
+    /* FONT_FAMILY */
+    --ff-montserrat : 'montserrat';
+
+    /* TEXT_COLOR */
+    --primary-text-color :rgba(255, 255, 255, 1);
+    --secondary-text-color :  rgb(0, 0, 0, 0.5) ;
+    --third-text-color :  rgba(30, 97, 64, 1) ;
+    --forth-text-color :  rgb(0, 0, 1) ;
+    
+    /* BACKGROUND */
+    --main-bg : rgba(30, 97, 64, 1);
+    --orange-bg : rgba(231, 78, 19, 1);
+    --light-brown-bg : rgba(141, 50, 0, 1);
+}

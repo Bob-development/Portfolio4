@@ -1,0 +1,55 @@
+.df{
+    display: flex;
+}
+
+.title1{
+    font-family: "montserrat";
+    font-size: var(--fs-l);
+    font-weight: 700;
+    color: var(--forth-text-color);
+}
+
+.title2{
+    font-family: "montserrat";
+    font-size: var(--fs-l);
+    font-weight: 300;
+    color: var(--forth-text-color);
+}
+
+.paragraph1{
+    font-family: "montserrat";
+    font-size: var(--fs-xs);
+    font-weight: 400;
+    color: var(--primary-text-color);
+}
+
+.paragraph2{
+    font-family: "montserrat";
+    font-size: var(--fs-xs);
+    font-weight: 400;
+    color: var(--secondary-text-color);
+}
+
+.pagex{
+    margin-bottom: var(--margin-xs);
+}
+
+.leave-r{
+    width: 32px;
+    height: 25px;
+    margin-right: var(--margin-xs);
+}
+
+.leave-l{
+    width: 32px;
+    height: 25px;
+    margin-left: var(--margin-xs);
+}
+
+.padding-page{
+    padding-top: var(--padding-page_u);
+}
+
+.bg-page{
+    background-color: rgba(229, 229, 229, 1);
+}
