@@ -53,3 +53,8 @@
 .bg-page{
     background-color: rgba(229, 229, 229, 1);
 }
+
+.paragraph_green{
+    font-weight: 700;
+    color: var(--third-text-color);
+}

@@ -13,7 +13,7 @@ a {
 }
 
 #app{
-    width: 1903px;
+    width: 100%;
     background-color: var(--grey-bg);
 }
 
@@ -191,3 +191,133 @@ a {
     width: 150px;
 }
 
+.about-us_page-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.about-us_nav{
+    width: 182px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.about-us_point{
+    width: 6px;
+    height: 6px;
+}
+
+.about-us_about{
+    font-family: "montserrat";
+    font-size: var(--fs-xs);
+    font-weight: 900;
+    color: var(--secondary-text-color);
+}
+
+.leave-img-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.about-us_title-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--margin-s);
+}
+
+.about-us_paragraph{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+
+.about-us_paragraph-df{
+    width: 1110px;
+    height: 205px;
+}
+
+.about-us_paragraph1,.about-us_paragraph2,.about-us_paragraph3,.about-us_paragraph4, .about-us_paragraph5{
+    margin-bottom: var(--margin-xs);
+}
+
+.footer{
+    height: 523px;
+    background-color: white;
+}
+
+.footer_nav{
+    padding: var(--padding-page_u) 450px 0px 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    width: 158px;
+    height: 71px;
+    margin-bottom: var(--margin-xs);
+}
+
+.footer_logo-par{
+    width: 221px;
+    height: 66px;
+}
+
+.footer_info-title{
+    font-size: var(--fs-s);
+    font-weight: 600;
+    margin-bottom: var(--margin-m);
+    font-family: "montserrat";
+}
+
+.footer_infox{
+    font-size: var(--fs-s);
+    font-family: "montserrat";
+    font-weight: 400;
+    margin-bottom: var(--margin-xxs);
+}
+
+.mail{
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+}
+
+.footer_connection{
+    margin-bottom: var(--margin-xs);
+}
+
+.footer_mail{
+    align-items: center;
+}
+
+.footer_mail-contact{
+    font-size: var(--fs-xs);
+    font-weight: 400;
+}
+
+.footer_tel-ic{
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+}
+
+.footer_line{
+    height: 1px;
+    width: 1110px;
+}
+
+.footer_line-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: var(--margin-xxxl);
+}
+
+.footer_copyr{
+    display: flex;
+    justify-content: center;
+    font-size: var(--fs-xxs);
+    font-family: var(--ff-montserrat);
+    color: var(--forth-text-color );
+    margin-top: var(--margin-xs);
+}
